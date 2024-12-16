@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão</title>
+    <link rel="stylesheet" href="cartao.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<div class="image-container-small">
+    <img src="https://i.ibb.co/4N3dZCK/IMG-20241215-WA0070.jpg" alt="Imagem Pequena" class="small-image">
+</div>
+
+<div class="image-container-large">
+    <img src="https://i.ibb.co/3p4ntwP/IMG-20241215-WA0071.jpg" alt="Imagem Grande" class="large-image">
+</div>
+
+<div class="form-container">
+    <form>
+        <input type="email" class="email-input" id="card-number" placeholder="Número do cartão" required>
+        <i class="fas fa-credit-card card-icon"></i>
+    </form>
+</div>
+
+<div class="additional-form-container">
+    <form class="date-form">
+        <input type="text" class="input-field" id="expiry-date" placeholder="Data de validade" required>
+    </form>
+    <form class="cvv-form">
+        <input type="text" class="input-field" id="cvv" placeholder="CVV" required>
+        <span class="question-icon">?</span>
+    </form>
+</div>
+
+<div class="name-form-container">
+    <input type="text" class="name-form" id="card-name" placeholder="Nome do cartão" required>
+</div>
+
+<p class="text-below">Forma de pagamento preferida</p>
+
+<div class="payment-options-wrapper">
+    <div class="payment-container">
+        <div class="payment-option">
+            <input type="radio" id="credito" name="payment" />
+            <label for="credito">
+                <div class="circle"></div> Crédito
+            </label>
+        </div>
+    </div>
+    <div class="payment-container">
+        <div class="payment-option">
+            <input type="radio" id="debito" name="payment" />
+            <label for="debito">
+                <div class="circle"></div> Débito
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="image-container">
+    <img src="https://i.ibb.co/JFbvxkT/IMG-20241216-WA0001.jpg" alt="Imagem de Exemplo" class="image">
+    <div class="button-container">
+        <button class="red-button" id="submit-button" disabled>Iniciar Assinatura</button>
+    </div>
+</div>
+
+<script src="cartao.js"></script>
+
+    <img src="https://i.ibb.co/K7pFyNF/IMG-20241216-WA0002.jpg" alt="Imagem Abaixo" style="width: 100%; height: auto; margin: 0; padding: 0;">
+    
+</body>
+</html>

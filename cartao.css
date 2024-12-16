@@ -1,0 +1,255 @@
+.image-container-small {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px; /* Espaço acima da imagem */
+}
+
+.small-image {
+    width: auto;
+    height: 45px; /* Altura da imagem */
+    object-fit: contain; /* Ajusta a imagem sem distorção */
+}
+
+.image-container-large {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Espaço acima da imagem */
+}
+
+.large-image {
+    width: 100%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura da imagem */
+    object-fit: cover; /* Ajusta para cobrir o espaço sem distorção */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço acima do formulário */
+}
+
+.email-input {
+    width: 80%; /* Largura do campo de e-mail */
+    padding: 12px;
+    border: 2px solid #8c8c8c; /* Linha cinza ao redor */
+    border-radius: 5px;
+    background-color: transparent; /* Fundo transparente */
+    color: #555; /* Cor do texto */
+    font-size: 16px;
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+.email-input::placeholder {
+    color: #ccc; /* Cor do texto do placeholder (E-mail) */
+}
+
+/* Estilo do formulário e do campo de entrada */
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço acima do formulário */
+    position: relative;
+}
+
+.email-input {
+    width: 80%; /* Largura do campo de e-mail */
+    padding: 15px;
+    padding-right: 40px; /* Espaço para o ícone à direita */
+    border: 1.5px solid #8c8c8c; /* Linha cinza ao redor */
+    border-radius: 5px;
+    background-color: transparent; /* Fundo transparente */
+    color: #555; /* Cor do texto */
+    font-size: 16px;
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+.email-input::placeholder {
+    color: #4a4949; /* Cor do texto do placeholder (E-mail) */
+}
+
+/* Estilo para o ícone */
+.card-icon {
+    position: absolute;
+    right: 35px; /* Coloca o ícone no lado direito */
+    top: 50%;
+    transform: translateY(-50%); /* Alinha verticalmente */
+    font-size: 19px; /* Tamanho do ícone */
+    color: #555; /* Cor do ícone */
+}
+
+/* Estilo para os formulários de data e CVV */
+.additional-form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 120%; /* Largura do container */
+    margin-left: 24px;
+    margin-right: auto;
+}
+
+.input-field {
+    width: 42%; /* Largura de cada campo */
+    padding: 13px;
+    border: 2px solid #8c8c8c; /* Linha cinza */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #555;
+    font-size: 16px;
+}
+
+.input-field::placeholder {
+    color: #4a4949; /* Cor do texto do placeholder */
+}
+
+/* Adicionando espaçamento entre os campos */
+.date-form {
+    margin-right: -15%;
+}
+
+.cvv-form {
+    margin-left: -8%;
+    position: relative; /* Para posicionar o ícone de interrogação */
+}
+
+/* Estilo para o ícone de interrogação com linha circular */
+.cvv-form .question-icon {
+    position: absolute;
+    top: 50%;
+    right: 120px;
+    transform: translateY(-50%);
+    font-size: 17px; /* Tamanho do ícone */
+    background-color: #fff;
+    color: #555;
+    border: 2px solid #8c8c8c;
+    border-radius: 50%; /* Garante que seja circular */
+    width: 20px; /* Ajuste a largura do círculo */
+    height: 20px; /* Ajuste a altura do círculo */
+    padding: 0; /* Remove o padding para manter o tamanho fixo */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o ícone */
+    cursor: pointer;
+}
+
+/* Impede rolagem horizontal e permite apenas rolagem vertical */
+body, html {
+    overflow-x: hidden; /* Impede rolagem horizontal */
+    overflow-y: auto; /* Permite rolagem vertical */
+    height: 100%; /* Garante que a altura ocupe toda a tela */
+}
+
+/* Estilo para o formulário de nome do cartão */
+.name-form-container {
+    margin-top: 15px; /* Espaço acima do formulário */
+    margin-left: 24px; /* Alinhamento com os outros formulários */
+    width: 77%; /* Largura do formulário */
+}
+
+.name-form {
+    width: 100%; /* Largura total dentro do container */
+    padding: 14px;
+    border: 1.5px solid #8c8c8c; /* Linha cinza */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #555;
+    font-size: 16px;
+}
+
+.name-form::placeholder {
+    color: #4a4949; /* Cor do texto do placeholder */
+}
+
+/* Estilo para o texto abaixo do formulário */
+.text-below {
+    margin-top: 25px; /* Espaço acima do texto */
+    margin-left: 24px; /* Alinhamento com os formulários */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #555; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+/* Contêiner pai para os dois contêineres lado a lado */
+.payment-options-wrapper {
+    display: flex;
+    justify-content: center; /* Centraliza os contêineres de pagamento */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    margin-top: 30px;
+    width: 100%;
+    gap: 50px; /* Espaçamento entre os contêineres */
+}
+
+/* Contêiner do lado esquerdo e direito */
+.payment-container {
+    display: flex;
+    align-items: center; /* Centraliza a bolinha e o texto verticalmente */
+    text-align: center;
+    cursor: pointer; /* Faz com que o usuário saiba que pode clicar */
+}
+
+/* Estilo do círculo */
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc; /* Cor da borda do círculo */
+    background-color: transparent;
+    margin-right: 15px; /* Espaço entre o círculo e o texto */
+}
+
+/* Estilo para a opção selecionada */
+.payment-option input[type="radio"]:checked + label .circle {
+    background-color: blue; /* Cor do círculo */
+    border-color: blue; /* Cor da borda do círculo */
+}
+
+.payment-option input[type="radio"]:checked + label {
+    color: blue; /* Cor do texto quando a opção é selecionada */
+}
+
+.payment-option input[type="radio"]:checked {
+    display: none; /* Oculta o input radio, deixando visível apenas a bolinha e o texto */
+}
+
+/* Contêiner da imagem */
+.image-container {
+    position: relative; /* Permite posicionamento absoluto dentro da imagem */
+    width: 100%; /* Garante que a imagem ocupe toda a largura */
+    height: 700px; /* Altura da imagem */
+}
+
+/* Estilo para a imagem */
+.image-container img {
+    width: 100%; /* A imagem ocupa toda a largura */
+    height: 100%; /* A imagem ocupa toda a altura */
+    margin-top: -40px;
+    object-fit: contain; /* Ajuste a imagem para não cortar e preencher o espaço sem zoom */
+}
+
+/* Estilo para o botão */
+.red-button {
+    background-color: red; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 15px; /* Espessura do botão */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Fonte em negrito */
+    border: 2px solid red; /* Cor da borda */
+    border-radius: 8px; /* Bordas menos curvadas */
+    width: 85%; /* Ajusta a largura do botão */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    text-align: center; /* Alinhamento do texto */
+    position: absolute; /* Posicionamento absoluto sobre a imagem */
+    top: 65%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste para centralização perfeita */
+}
+
+.red-button:hover {
+    background-color: darkred; /* Muda a cor do fundo quando passar o mouse */
+    border-color: darkred; /* Muda a cor da borda quando passar o mouse */
+}
+
+.image-below {
+    width: 100%;
+    height: auto;
+    margin-top: 20px; /* Espaço entre a imagem e o conteúdo acima */
+}

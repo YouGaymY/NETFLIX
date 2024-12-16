@@ -1,0 +1,152 @@
+.sevenh-background {
+    margin-top: -10px; /* Espaço entre a sexta imagem e a sétima */
+    display: flex;
+    justify-content: center;
+}
+
+.sevenh-background img {
+    width: 105%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.eighth-background {
+    margin-top: 0px; /* Espaço entre a sétima imagem e a oitava */
+    display: flex;
+    justify-content: center;
+    position: relative; /* Necessário para posicionar o botão acima da imagem */
+}
+
+.eighth-background img {
+    width: 105%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.moveable-button {
+    position: absolute;
+    top: 33px; /* Ajuste vertical do botão */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0; /* Remove o espaçamento interno que pode causar aumento de altura */
+    height: 50px; /* Altura fixa */
+    width: 235px; /* Ajuste a largura conforme necessário */
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1; /* Garante que o botão fique acima da imagem */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    line-height: 40px; /* Alinha o texto verticalmente dentro do botão */
+    white-space: nowrap; /* Impede que o texto quebre para outra linha */
+}
+
+.moveable-button:hover {
+    background-color: darkred;
+}
+
+.ninth-background {
+    margin-top: 0px; /* Espaço entre a imagem com o botão e esta nova imagem */
+    display: flex;
+    justify-content: center;
+}
+
+.ninth-background img {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+}
+.tenth-background {
+    margin-top: 0px; /* Espaço entre a imagem anterior e esta nova imagem */
+    display: flex;
+    justify-content: center;
+}
+
+.tenth-background img {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+}
+
+.eleventh-background {
+    margin-top: 0px; /* Espaço entre a imagem anterior e esta nova imagem */
+    display: flex;
+    justify-content: center;
+}
+
+.eleventh-background img {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+}
+
+.twelfth-background {
+    margin-top: 0px; /* Espaço entre a imagem anterior e esta nova imagem */
+    position: relative; /* Necessário para posicionar o botão */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twelfth-background img {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+}
+
+.twelfth-background .moveable-button {
+    position: absolute;
+    top: 157px; /* Ajuste vertical do botão */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0;
+    height: 50px; /* Altura fixa */
+    width: 235px; /* Ajuste a largura conforme necessário */
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+.thirteenth-background {
+    margin-top: 0px; /* Espaço entre a imagem anterior e esta nova imagem */
+    display: flex;
+    justify-content: center;
+}
+
+.thirteenth-background img {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+}
+
+.fourteenth-background {
+    margin-top: -10px; /* Espaço entre a imagem anterior e esta nova imagem */
+    display: flex;
+    justify-content: center;
+}
+
+.fourteenth-background img {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+}
+
+.black-background {
+    background-color: black; /* Define o fundo preto */
+    width: 100%;
+    height: 10px; /* Ajuste a altura conforme necessário */
+    position: relative;
+    top: 0;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.black-background:hover {
+    background-color: #333; /* Mudança de cor ao passar o mouse, caso deseje */
+}

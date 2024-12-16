@@ -1,0 +1,35 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-pague {
+    width: 100%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura da imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.image-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço acima da imagem */
+}
+
+.clickable-image {
+    width: 290px; /* Largura da imagem, ajuste conforme necessário */
+    height: auto;
+    cursor: pointer; /* Indica que a imagem é clicável */
+}
+
+.image-container-no-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Espaço acima da imagem */
+}
+
+.image-no-button {
+    width: 105%; /* Preenche toda a largura disponível */
+    max-height: 700px; /* Altura da imagem */
+    margin-top: 50px;
+    object-fit: cover; /* Ajusta para cobrir o espaço sem distorção */
+}

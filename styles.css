@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://i.ibb.co/3Fp26gD/Picsart-24-12-14-12-58-20-778.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo-container {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+}
+
+.logo {
+    width: 120px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+.image-container {
+    position: absolute;
+    top: 10px;
+    right: 95px;
+}
+
+.image-right {
+    width: 70px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.button-container {
+    position: absolute;
+    top: 15px;
+    right: 20px; /* Ajuste conforme necessário */
+}
+
+.login-button {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: darkred;
+}
+
+.text-container {
+    margin: 20px 40px; /* Margem superior e inferior: 20px, laterais: 40px */
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 100px;
+    line-height: 1.5;
+    color: #ffffff; /* Ajuste a cor do texto conforme necessário */
+}
+
+.normal-text {
+    font-weight: normal;
+    font-size: 14px; /* Ajuste o tamanho conforme necessário */
+    line-height: 1.5;
+    color: #ffffff; /* Cor do texto */
+    margin-top: -20px; /* Espaçamento entre os textos */
+}
+
+.normal-text2 {
+    font-weight: normal;
+    font-size: 14px; /* Ajuste o tamanho conforme necessário */
+    line-height: 1.5;
+    color: #ffffff; /* Cor do texto */
+    margin-top: -10px; /* Espaçamento entre os textos */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; /* Ajuste conforme necessário */
+}
+
+.email-input {
+    width: 270px; /* Largura do campo */
+    padding: 14px;
+    border: 1px solid #cccccc; /* Linha cinza */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    outline: none;
+}
+
+.form-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaço entre o formulário e o botão */
+}
+
+.custom-form-button {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.custom-form-button .arrow {
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 10px solid white;
+}
+
+.custom-form-button:hover {
+    background-color: darkred; /* Efeito de hover */
+}
+
+.second-background {
+    margin-top: 20px; /* Espaço entre o botão e o segundo fundo */
+    display: flex;
+    justify-content: center;
+}
+
+.second-background img {
+    width: 100%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima do fundo */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.third-background {
+    margin-top: 0px; /* Espaço entre a segunda imagem e a terceira */
+    display: flex;
+    justify-content: center;
+}
+
+.third-background img {
+    width: 100%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.fourth-background {
+    margin-top: 0px; /* Espaço entre a terceira imagem e a quarta */
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-background img {
+    width: 100%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.fifth-background {
+    margin-top: 0px; /* Espaço entre a quarta imagem e a quinta */
+    display: flex;
+    justify-content: center;
+}
+
+.fifth-background img {
+    width: 100%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.sixth-background {
+    margin-top: 0px; /* Espaço entre a quinta imagem e a sexta */
+    display: flex;
+    justify-content: center;
+}
+
+.sixth-background img {
+    width: 100%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.seventh-background {
+    margin-top: 0px; /* Espaço entre a sexta imagem e a sétima */
+    display: flex;
+    justify-content: center;
+}
+
+.seventh-background img {
+    width: 100%; /* Ocupará toda a largura disponível */
+    max-height: 700px; /* Altura máxima da nova imagem */
+    object-fit: cover; /* Ajuste para cobrir o espaço sem distorção */
+}
+
+.custom-form-button:disabled {
+    background-color: red;
+    cursor: not-allowed;
+    border-color: gray;
+}

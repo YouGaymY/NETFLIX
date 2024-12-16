@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -293px;
+}
+
+.conclusion-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Ajuste conforme necessário */
+}
+
+.gif-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -255px;
+}
+
+.checkmark-gif {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.congratulations-text {
+    font-size: 24px;
+    margin-top: -20px;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.additional-text {
+    font-size: 16px;
+    color: #000;
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona um espaço acima do texto */
+}
